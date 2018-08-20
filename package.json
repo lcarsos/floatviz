@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Visualize what numbers can and cannot be represented exactly in floating point",
   "main": "index.js",
+  "sideEffects": false,
   "scripts": {
     "start": "webpack --mode development --watch",
     "build": "webpack --mode production",
@@ -25,6 +26,7 @@
     "babel-preset-react": "^6.24.1",
     "bignumber.js": "^7.2.1",
     "css-loader": "^1.0.0",
+    "file-loader": "^1.1.11",
     "html-webpack-plugin": "^3.2.0",
     "prop-types": "^15.6.2",
     "react": "^16.4.1",
